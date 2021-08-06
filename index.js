@@ -12,7 +12,7 @@ dotenv.config();
 
 // database connection
 
-mongoose.connect(process.env.MONGO_URL, {useNewUrlParser: true, useUnifiedTopology: true},
+mongoose.connect(process.env.MONGO_URL, {useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true },
      ()=>{
     console.log("Database connected");
 });
