@@ -1,9 +1,14 @@
+const User = require("../models/User");
 const router = require('express').Router();
 
+// update user
+// delete user
+// get a user
+// follow user
+// unfollow user
 
-router.get("/", (req, res)=>{
-    res.send('hey its user route')
-});
+
+
 
 
 
