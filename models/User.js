@@ -31,7 +31,11 @@ const UserSchema = new mongoose.Schema({
     },
     followers: {
         type: Array,
-        default:[]
+        default:[],
+    },
+    followings: {
+        type: Array,
+        default:[],
     },
     isAdmin:{
         type: Boolean,
