@@ -12,4 +12,15 @@ router.post("/", async(req, res) =>{
     }
 });
 
+// update a post 
+router.put("/:id", async(req, res)=> {
+    const post = Post.findById(req.params.id);
+    if(post.userId === req.body.userId){
+
+    }else{
+        res.status(403).json("You can update only your post")
+    }
+
+});
+
 module.exports = router;
