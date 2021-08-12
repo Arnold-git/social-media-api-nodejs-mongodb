@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const Post = require("..models/Post")
+const Post = require("../models/Post")
 
 // create a post
 router.post("/", async(req, res) =>{
@@ -10,6 +10,6 @@ router.post("/", async(req, res) =>{
     }catch(err){
         res.status(500).json(err)
     }
-})
+});
 
 module.exports = router;
