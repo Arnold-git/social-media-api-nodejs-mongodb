@@ -35,5 +35,5 @@ app.use('/api/posts', postRoute);
 
 const port = process.env.PORT || 8080;
 app.listen(3000, function () {
-    console.log(`Backend server running ${port}...`);
+    console.log(`Backend server running on ${port}...`);
 });
