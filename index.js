@@ -33,7 +33,14 @@ app.use('/api/auth', authRoute);
 app.use('/api/posts', postRoute);
 
 
+app.get("/", (req, res) =>{
+    return res.status(200).json({
+        message:"Welcome social media API project"
+    })
+});
+
+
 const port = process.env.PORT || 8080;
-app.listen(3000, function () {
+app.listen(8080, function () {
     console.log(`Backend server running on ${port}...`);
 });
