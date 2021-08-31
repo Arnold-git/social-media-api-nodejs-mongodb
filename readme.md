@@ -1,4 +1,4 @@
-# Social Media API
+# Social Media API :rocket: :tada:
 
 Social media API built with nodejs, expressjs and mongo data base
 
