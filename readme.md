@@ -2,7 +2,7 @@
 
 Social media API built with nodejs, expressjs and mongo data base
 
-## Technology Used 
+## Technology Used :wrench:
 
 - [Node](https://nodejs.org/en/)
 - [Express](http://expressjs.com/)
